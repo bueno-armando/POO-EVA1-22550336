@@ -10,19 +10,19 @@ package clases_examen;
  */
 public class DatosIntegrantes {
     static void imprimirDatosEquipo(){
-        System.out.println("INGENIERIA EN SISTEMAS COMPUTACIONALES:\n");
+        System.out.println("INGENIERIA EN SISTEMAS COMPUTACIONALES:");
         System.out.println("22550336");
-        System.out.println("Armando Sebastián Bueno Núñez\n");
+        System.out.println("Armando Sebastián Bueno Núñez");
         System.out.println("22550322");
-        System.out.println("Paola Gallegos Olmeda\n");
+        System.out.println("Paola Gallegos Olmeda");
         System.out.println("22550379");
-        System.out.println("Rodrigo Levi García Garay\n");
+        System.out.println("Rodrigo Levi García Garay");
         System.out.println("22550288");
-        System.out.println("César Alejandro Urías González\n");
-        System.out.println("Equipo: ICE CREAM SANDWICH\n");
+        System.out.println("César Alejandro Urías González");
+        System.out.println("Equipo: ICE CREAM SANDWICH");
     }
     static void imprimirProblemasResueltos(){
-        System.out.println("*** PROBLEMAS RESUELTOS ***");
+        System.out.println("** PROBLEMAS RESUELTOS:");
         System.out.println("CLASE DATOS DEL EQUIPO");
         System.out.println("CLASE CONTRASEÑA");
         System.out.println("CLASE PELICULA");
