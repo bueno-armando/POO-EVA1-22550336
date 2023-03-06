@@ -1,12 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package clases_examen;
 
 /**
  *
- * @author jaime
+ * @author Armando Bueno
  */
 public class DatosIntegrantes {
     static void imprimirDatosEquipo(){
@@ -26,7 +22,6 @@ public class DatosIntegrantes {
         System.out.println("CLASE DATOS DEL EQUIPO");
         System.out.println("CLASE CONTRASEÑA");
         System.out.println("CLASE PELICULA");
-        System.out.println("CLASE FICHA BIBLIOGRAFICA");
         System.out.println("CLASE TEST COVID");
         System.out.println("CLASE CUENTA BANCARIA");
         System.out.println("CLASE EMPLEADO");

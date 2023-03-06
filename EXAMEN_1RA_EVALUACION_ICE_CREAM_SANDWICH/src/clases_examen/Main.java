@@ -2,7 +2,7 @@ package clases_examen;
 
 /**
  *
- * @author jaime
+ * @author Equipo ICE CREAM SANDWICH
  */
 public class Main {
     public static void main(String[] args){
@@ -13,6 +13,7 @@ public class Main {
         
         //CONTRASEÑA
         System.out.println("\n****** CONTRASEÑA *******");
+        System.out.println("REQUIERE ENTRADA DE TECLADO");
         Password user_1 = new Password();
         user_1.setUser("Prueba");
         user_1.setPassword("prueba_2017");
@@ -79,5 +80,18 @@ public class Main {
         Prueba_1.setYear(2013);
         Prueba_1.setSalary(2500);
         Prueba_1.imprimirDatos();
+        
+        //FIBONACCI
+        System.out.println("\n****** FIBONACCI *******");
+        Fibonacci fib1 = new Fibonacci();
+        fib1.setA1(3); //primer valor 
+        fib1.setA2(5); //segundo valor
+        fib1.setN(6);//la posicion a conocer de nuestra secuencia
+        System.out.println("Primer valor: "+fib1.getA1());
+        System.out.println("Segundo valor: "+fib1.getA2());
+        System.out.print("Número en la posición "+fib1.getN()+": ");
+        fib1.imprimirFibo();//este metodo solo imprime el valor de la posicion "n"
+        //hay un metodo ".calcularFibo" que devuelve el valor long
+        //de Fibonacci
     }
 }
